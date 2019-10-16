@@ -1,0 +1,4 @@
+the method contains() used in listAreEqual() implementation makes use of the Object version
+of equals which is not overriden in Employee class. 
+The equals in class Employee takes in Employee type argument instead of Object type.
+To rectify the issue, override Object version of equals with signature: public boolean equals(Object obj)
