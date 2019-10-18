@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.function.BiFunction;
 
-public class prob1 {
+public class Day1prob1 {
 	public static void main(String[] args) {
 		BiFunction<Double,Double, List> bi = (x,y) -> {     
 			List<Double> list = new ArrayList<>();    
