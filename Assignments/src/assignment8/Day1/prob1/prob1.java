@@ -6,7 +6,7 @@ import java.util.function.BiFunction;
 
 public class prob1 {
 	public static void main(String[] args) {
-		BiFunction<Double,Double, List> bi = (x,y) -> {     
+		BiFunction<Double,Double, List<Double>> bi = (x,y) -> {     
 			List<Double> list = new ArrayList<>();    
 			list.add(Math.pow(x,y));     
 			list.add(x * y);     
