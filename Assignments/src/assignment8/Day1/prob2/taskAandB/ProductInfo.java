@@ -33,8 +33,6 @@ public class ProductInfo {
 		 
 		 sort(prod, SortMethod.BYTITLE);
 		 System.out.println(prod);
-		 
-	
 		
 	}
 

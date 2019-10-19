@@ -7,7 +7,6 @@ import java.util.List;
 public class ProductInfo {
 	
 	public static void  sort(List<Product> prod) {
-		
 		Collections.sort(prod, (p1,p2)->{
 			if(!(p1.title.equals(p2.title))) {
 				return p1.title.compareTo(p2.title);
